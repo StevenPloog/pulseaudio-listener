@@ -57,7 +57,7 @@ static pa_stream *stream = NULL;
 /* This is my builtin card. Use paman to find yours
 or set it to NULL to get the default device
 */
-static char *device = "alsa_input.pci-0000_00_1b.0.analog-stereo";
+static char *device = "alsa_output.0.analog-stereo.monitor";
 
 static pa_stream_flags_t flags = 0;
 
